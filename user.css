@@ -1,0 +1,12 @@
+/* {display: none !important;}
+
+ .encore-text-body-small-bold.e-91000-button-primary.e-91000-button {
+    display: none !important;
+}
+  */
+
+  /* Hide the "Explore Premium" button */
+button[title="Upgrade to Premium"],
+button[aria-label="Upgrade to Premium"] {
+    display: none !important;
+}
